@@ -6,7 +6,7 @@ import express from 'express';
 import bodyParser from "body-parser";
 
 import request from 'request';
-import { RESOURCE_HOST, RESOURCE_PROTOCOL } from '../config';
+// import { RESOURCE_HOST, RESOURCE_PROTOCOL } from '../config';
 
 // const client = require.resolve('../../../client');
 const router = express.Router();
