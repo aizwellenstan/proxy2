@@ -65,8 +65,8 @@ import { routes } from "./routes";
     app.listen({ port: BIND_PORT }, () => {
         // eslint-disable-next-line no-console
         console.log(
-            "🎉 GraphQL server is running at " +
-            `http://localhost:${BIND_PORT}/graphql`
+            "🎉 Server is running at " +
+            `http://localhost:${BIND_PORT}`
         );
     });
 })();
