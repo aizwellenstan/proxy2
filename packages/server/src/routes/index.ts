@@ -51,7 +51,7 @@ router.use(bodyParser.json());
 // });
 
 // Bind /api/* to original API server
-router.use('/api', (req, res) => {
+router.use('/nadidemo2', (req, res) => {
   // const boundPath: string = `${RESOURCE_PROTOCOL}://${RESOURCE_HOST}${req.path}`;
   const boundPath: string = `https://reactnadi.herokuapp.com`;
   req.pipe(request(boundPath)).pipe(res);
