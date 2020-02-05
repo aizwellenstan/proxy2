@@ -17,7 +17,7 @@ import { BIND_PORT } from "./config";
 // import { CategoryCron } from "./cron/category";
 // import { createElasticsearchConnection } from "./elasticsearch";
 
-import { routes } from "./routes/index";
+import { routes } from "./routes";
 
 // const arts = require.resolve('../../arts');
 // const schema = require.resolve("../../schema");
